@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleFormulario.css">
+    <title>SurfSpots</title>
+</head>
+<body>
+    <header>
+        <nav id="opciones">
+        <a href="Tarifas.html">Conocer nuestras tarifas disponibles</a>
+        <a href="Formulario.html">Inscribirse a una actividad</a>
+        <a href="Spots.html">Conocer nuestros Spots</a>
+
+        </nav>
+    </header>
+    <h1><strong>INSCRIBETE A SURFSPOTS</strong></h1>
+
+    <form action="FSubmit.html" method="post">
+        <fieldset id="datos_personales">
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="fechaNac">Fecha nacimiento:</label>
+            <input type="date" name="fechaNac" id="fechaNac"><br>
+            <label for="dni">DNI/Pasaporte:</label>
+            <input type="text" name="dni" id="dni"><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="tlf">Número de teléfono:</label>
+            <input type="tel" name="tlf" id="tlf"><br>
+            <label for="pais">País de residencia:</label>
+            <input type="text" name="pais" id="pais">
+        </fieldset>
+
+        <fieldset id="surf">
+            <legend>Relacionado con el surf</legend>
+            <label for="niv">Nivel de habilidad:</label><br><br>
+            <input type="radio" name="niv" value="Experimentado" id="niv"> Experimentado
+            <input type="radio" name="niv" value="Medio"> Medio
+            <input type="radio" name="niv" value="Principiante"> Principiante<br><br>
+            Talla de la Tabla:<br>
+            Pies:<input type="number">
+            Pulgadas:<input type="number"><br>
+            <label for="dest">Preferencia de destinos:</label><br>
+            <textarea name="dest" rows="5" cols="20" id="dest">Ex: Teahupo'o (Asegúrese de mirar los Spots disponibles)</textarea>
+        </fieldset>
+
+        <fieldset id="emergencias">
+            <legend>Emergencias</legend>
+            <strong>En caso de emergencia, necesitaremos unos datos para poder contactar con alguien de su círculo cercano.</strong><br>
+            <label for="nombreEm">Nombre de emergencia</label>
+            <input type="text" name="nombreEm" id="nombreEm"><br>
+            <label for="tlfEm">Teléfono de Emergencia</label>
+            <input type="tel" name="tlfEm" id="tlfEm">
+        </fieldset>
+
+        <footer id="PdP">
+            <label for="politicaPrivacidad"><em>*Política de Privacidad</em></label><br>
+            <input type="checkbox" id="politicaPrivacidad"><br><br>
+            <input type="submit">
+        </footer>
+    </form>
+    <form action="Pagina1.html" method="post">
+        <input type="submit" value="Volver a inicio">
+    </form>
+    <footer id="footer">
+        <p>&copy; SurfSpots S.A | <a href="PoliticaDePrivacidad.html">Política de Privacidad</a></p>
+    </footer>
+</body>
+</html>

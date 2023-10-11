@@ -1,0 +1,17 @@
+body {
+
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(10, 89, 49, 0.6); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+html {
+    background-image: url('IMG/teahuppo.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+

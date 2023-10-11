@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    background-color: sandybrown;
+    background-size: cover;
+}
+
+header {
+    background-color: skyblue; /* Fondo azul cielo */
+    padding: 10px; /* Añade un espacio alrededor del contenido */
+    text-align: center; /* Centra el contenido del header */
+    margin: 5px 0;
+    color: aquamarine;
+    
+}
+
+header a {
+    color: #FFA500; /* Color de texto ocre */
+    text-decoration: none; /* Elimina la subraya de los enlaces */
+    font-family: "Arial", sans-serif; /* Cambia el estilo de fuente */
+    font-size: 18px; /* Tamaño de fuente */
+    margin: 0 10px; /* Espacio entre enlaces */
+    text-decoration: underline; 
+    font-family: fantasy, "Cottonwood";
+}
+#desc,h1 {
+    text-align: center;
+    padding: 100px 0;
+    color: aquamarine;
+    background-color: #1e7f85; /* Azul surf */
+    padding: 10px;
+    margin: 5px 0;
+}
+
+ h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#desc {
+    font-size: 18px;
+    font-style: italic;
+}
+
+main {
+    display: flex;
+}
+
+.surf-spots {
+    flex: 2;
+    padding: 20px;
+}
+ul{
+    background-color: transparent;
+    color: darkcyan;
+}
+.surf-spots h2 {
+    font-size: 24px;
+    text-align: center;
+    color: darkcyan;
+}
+
+.surf-spots ul {
+    list-style: none;
+    padding: 0;
+}
+
+.surf-spots li {
+    margin: 20px 0;
+}
+
+.surf-spots h3 {
+    font-size: 20px;
+}
+
+.surf-spots p {
+    font-size: 16px;
+}
+
+aside {
+    flex: 1;
+    background-color: #1e7f85;
+    color: white;
+    padding: 20px;
+}
+
+aside h2 {
+    font-size: 24px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    margin: 10px 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e7f85;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+ul img{
+    width: 420px;
+    height: 180px;
+}
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.422); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+input[type="submit"] {
+    background-color: #1565c0; /* Azul surf */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #0d47a1; /* Azul surf más oscuro al pasar el cursor */
+}
